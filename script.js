@@ -8,12 +8,12 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "What does CSS stand for?",
-        a: "Central Style Sheets",
-        b: "Cascading Style Sheets",
-        c: "Cascading Simple Sheets",
-        d: "Cars SUVs Sailboats",
-        correct: "b",
+        question: "Which of the following can be used to call a JavaScript Code Snippet?",
+        a: "Function/Method",
+        b: "Preprocessor",
+        c: "Triggering Event",
+        d: "RMI",
+        correct: "a",
     },
     {
         question: "What does HTML stand for?",
@@ -24,13 +24,22 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "What year was JavaScript launched?",
-        a: "1996",
-        b: "1995",
-        c: "1994",
-        d: "none of the above",
-        correct: "b",
+        question: "Which of the following keywords is used to define a variable in Javascript?",
+        a: "var",
+        b: "let",
+        c: "Both A and B",
+        d: "None of the above",
+        correct: "c",
     },
+    {
+        question: "Which of the following methods is used to access HTML elements using Javascript?",
+        a: "getElementById()",
+        b: "getElementByClassName()",
+        c: "Both A and B",
+        d: "getElementByClass()",
+        correct: "c",
+    },
+    
 
 
 ];
