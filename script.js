@@ -39,6 +39,7 @@ const quiz= document.getElementById('quiz')
 const answerEls = document.querySelectorAll('.answer')
 const questionEl = document.getElementById('question')
 const questionCountEl = document.getElementById("question-count");
+const scoreCountEl = document.getElementById("scored");
 const a_text = document.getElementById('a_text')
 const b_text = document.getElementById('b_text')
 const c_text = document.getElementById('c_text')
@@ -95,11 +96,12 @@ submitBtn.addEventListener('click', () => {
            loadQuiz()
        } else {
            quiz.innerHTML = `
-           <h2>You answered ${currentQuiz}/${quizData.length} questions correctly</h2>
+           <h2>You answered ${score}/${quizData.length} questions correctly</h2>
 
            <button onclick="location.reload()">Reload</button>
            `
        }
     }
-    questionCountEl.textContent = `Question Attempted: ${currentQuiz + 1} of /${quizData.length} questions`;
+    scoreCountEl.textContent = `Your current Score is ${score}`
+    questionCountEl.textContent = `Question Attempted: ${currentQuiz} of ${quizData.length} questions`;
 })

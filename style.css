@@ -14,6 +14,14 @@ body{
   overflow: hidden;
   margin: 0;
 }
+#question-count{
+    font-size: 15px;
+    text-align: right;
+}
+
+#question{
+    text-align: left;
+}
 .quiz-container{
   background-color: rgb(243, 224, 224);
   border-radius: 10px;
